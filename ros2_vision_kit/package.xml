@@ -10,7 +10,7 @@ Ros2 Vision Kit consists of packages to interface ROS 2 with OpenCV and a librar
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>vision_bridge</exec_depend>
   <exec_depend>image_geometry</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
