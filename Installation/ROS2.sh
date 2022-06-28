@@ -13,6 +13,9 @@ sudo apt-get install python3-pip
 # Install ntfy, a desktop notification service to notify updates and error messages
 sudo pip3 install ntfy
 
+sudo pip3 install opencv-python
+sudo pip3 install opencv-contrib-python
+
 ntfy send "Installing ROS2...."
 ntfy send "Checking Ubuntu Version"
 

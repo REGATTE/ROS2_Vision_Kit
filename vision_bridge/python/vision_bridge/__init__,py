@@ -1,0 +1,8 @@
+from .core import VisionBridge, VisionBridgeError
+
+# python bindings
+# This try is just to satisfy doc jobs that are built differently.
+try:
+    from vision_bridge.boost.vision_bridge_boost import cvtColorForDisplay, getVisionType
+except ImportError:
+    pass
