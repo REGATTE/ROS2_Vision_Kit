@@ -5,12 +5,27 @@
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="ashok_a380@icloud.com">regatte</maintainer>
-  <license>TODO: License declaration</license>
+  <license>MIT</license>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+  <buildtool_depend>python_cmake_module</buildtool_depend>
 
+  <build_depend>libboost-dev</build_depend>
+  <build_depend>libboost-python-dev</build_depend>
+
+  <depend>libopencv-dev</depend>
+  <depend>python3-numpy</depend>
+  <depend>rcpputils</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>libboost-python</exec_depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+  <test_depend>python3-opencv</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
